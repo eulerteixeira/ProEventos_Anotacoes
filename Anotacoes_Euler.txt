@@ -1,0 +1,34 @@
+1 - Executar o aplicativo local vi VSCODE
+ 	C:\Users\euler\Desktop\csharp\Fonte\ProEventos\Front\ProEventos-App> ng serve -o    (Tem que estar nesta pasta)
+
+2 - Como abrir o swagger
+
+	PS C:\Users\euler\Desktop\csharp\Fonte\ProEventos\Back\src> dotnet watch run -p ProEventos.API
+
+	Vai executar no Browser assim: https://localhost:5001/swagger/index.html
+
+3 - Definir com qual versao do dotnet quero trabalhar
+	3.1 Digito comando para ver as versoes instaladas na minha maquina: dotnet --version  	
+	3.2 Vou dentro da pasta: SRC\global.json e procuro a variavel de SDK	
+
+	ou podera criar automaticamente pelo comando: dotnet new globaljson --sdk-version 5.0.408 --force
+    ou Pesquisar versão do dotnet: dotnet --version  ou dotnet -h (mostra os comandos possiveis)
+
+
+4 - Criar uma API com base em templates
+	4.1 Mostra os templates disponiveis: C:\Users\euler\Desktop\csharp\Curso\PROEVENTOS\Back\src> dotnet new
+	4.2 Criando: C:\Users\euler\Desktop\csharp\Curso\PROEVENTOS\Back\src> dotnet new webapi -n ProEventos.API
+	4.3 Como executar esse projeto
+		- Entra na pasta do ProEventosAPI e executa: PS C:\Users\euler\Desktop\csharp\Curso\PROEVENTOS\Back\src\ProEventos.API> dotnet run OU dotnet watch run(tudo que 
+           alterar ele ja mostra no browser aberto)
+		- ele vai mostrar a url(http e https) digita assim: https://localhost:5001/swagger
+
+
+
+
+
+
+
+
+
+							
